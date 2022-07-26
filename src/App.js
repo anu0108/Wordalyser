@@ -1,4 +1,4 @@
-//import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
@@ -30,7 +30,7 @@ function App() {
        setMode('dark');
        document.body.style.backgroundColor='#042743';
        showAlert("Dark mode has been enabled","success");
-      //  document.title='Wordalyser - Dark Mode';
+      //  document.title='Wordalyser - Dark Mode'  ;
     }
     else{
       setMode('light');

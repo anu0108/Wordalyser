@@ -47,7 +47,7 @@ export default function TextForm(props) {
           style={{backgroundColor:props.mode==='dark'?'#13466e':'white',color:props.mode==='dark'?'white':'#042743'}}
           id="myBox"
           rows={8}
-          defaultValue={""}
+          // defaultValue={""}
         />
       </div>
       <button disabled={text.length===0} className="btn btn-primary mx-1" onClick={handleUpClick}>
